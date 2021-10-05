@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendiendo HTML</title>
     <description>Pequeña descripcion que aparece en letras pequeñas al buscar la pagina en google</description>
+    <link href="./styles/style.css" rel="stylesheet" />
 </head>
 <body>
     <header>
@@ -16,11 +17,11 @@
             <li>Elemento 2</li>
             <li>Elemento 3</li>
         </ol>
-        <h3>Lista desordenada (ul)</h3>
+        <h3 id="lista101">Lista desordenada (ul)</h3>
         <p>La diferencia es que la lista desordenada sale con biñetas en vez de números</p>
         <ul>
-            <li>Elemento 1</li>
-            <li>Elemento 2</li>
+            <li class="margen1">Elemento 1</li>
+            <li class="margen2">Elemento 2</li>
             <li>Elemento 3</li>
         </ul>
     </header>
@@ -33,8 +34,8 @@
     </section>
     <section>
         <article> 
-            <p> Este es el primer párrafor, escritros entre las etiquetas p </p>
-            <p> Este es el segundo párrafo escrito entre las etiquetas p nuevamente, las cuales estan dentro de la etiquera article</p>
+            <p class="textocursivonegrita"> Este es el primer párrafor, escritros entre las etiquetas p </p>
+            <p class="parrafogris fondonegro"> Este es el segundo párrafo escrito entre las etiquetas p nuevamente, las cuales estan dentro de la etiquera article</p>
         </article>
         <div>Este es el div</div>
     </section>
@@ -44,6 +45,14 @@
         <img src="./Media/naturaleza-sol-arboles.jpg" alt="foto de un arbol"/>
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="link de imagen google"/>
     </article>
+    </section>
+    <section>
+        <h2>Link para saber mas sobre las propiedades de DISPLAY y unidades</h2>
+        <a href="https://developer.mozilla.org/es/docs/Web/CSS/display">Click para acceder al link</a>
+        <a href=https://www.w3schools.com/cssref/css_units.asp>Link para acceder a unidades</a>
+        <a href=moreexpl.html>Link para pagina con explicacion de displays></a>
+
+
     </section>
     </main>
     <footer>

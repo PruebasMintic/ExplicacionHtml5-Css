@@ -1,0 +1,20 @@
+.contenedorGridDivs{
+    border:2px solid green;
+    display: grid;
+    grid-column: auto;
+    grid-template-rows:50px 50px;
+    grid-template-columns: 30% 30% 40%;
+    margin:20px;
+}
+.divtest{
+    border:1px solid red;
+}
+.contenedorflexDivs{
+    border:2px solid green;
+    display: flex;
+    height: 500px;
+    justify-content:center;
+    /*justify-content:space-between;Este al igual que el "space-around " sirven pare separar en espacios iguales*/
+    
+    align-items: center;
+}

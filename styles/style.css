@@ -1,0 +1,37 @@
+p{
+    color:blue;
+}
+h3{
+    color:blueviolet;
+}
+h1{
+    color:red;
+}
+a{
+    background-color:green;
+}
+#lista101 {
+    color:yellow;
+}
+.parrafogris{
+    color:gray;
+}
+.fondonegro{
+    background-color:black;
+}
+.textocursivonegrita{
+    font-size:x-large;
+    font-style:oblique;
+    font-weight: bold;
+}
+.margen1{
+    margin: 10px;
+}
+.margen2{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    padding: 10px;
+}
