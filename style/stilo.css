@@ -12,3 +12,16 @@ ul{
     justify-content: space-between;
     padding: 10px;
 }
+.buscar{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+}
+.buscar:focus-within{
+    border: 1px solid blue;
+}
+.buscar > input{     /*Estp significa que: Todo input que este inmnediatamente despues de la clase buscar se le aplican esos cambios*/
+    outline: none;
+    border: 0px;
+}
