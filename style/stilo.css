@@ -12,17 +12,27 @@ ul{
     justify-content: space-between;
     padding: 10px;
 }
-.mainbutton{
-    background-color: rgb(24, 148, 127);
-    color: white;
+.boton{
     border: 0px;
     padding: 5px 10px;
     border-radius: 8px;
     font-weight: bolder;
+}
+.boton:hover{
+    cursor: pointer;
+}
+.mainbutton{
+    background-color: rgb(24, 148, 127);
+    color: white;
     box-shadow: 2px 2px green ;
 }
 .mainbutton:hover{
-    cursor: pointer;
-    box-shadow: 4px 4px green ;
-
+    box-shadow: 4px 4px green ;  
+}
+.secondaryboton{
+    background-color: rgb(29, 134, 160);
+    color: white;
+}
+.secondaryboton:hover{
+    transform: scale(1.1);
 }
