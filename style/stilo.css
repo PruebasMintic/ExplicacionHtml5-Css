@@ -11,23 +11,31 @@ ul{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    background-color: gray;
+    border-bottom: 1px solid gray;
+    box-shadow: 1px 1px gray;
+}
+.navbar > li {
+    display: flex;
+    align-items: center;
 }
 .logo{
     height: 70px;
  }
-.mainbutton{
-    background-color: rgb(24, 148, 127);
-    color: white;
- }
-.boton{
+ .boton{
     border: 0px;
-    padding: 5px 5px;
-    border-radius: 8px;
+    padding: 7px 10px;
+    border-radius: 10px;
     font-weight: bolder;
 }
 .boton:hover{
     cursor: pointer;
 }
+.mainbutton{
+    background-color: rgb(24, 148, 127);
+    color: white;
+ }
+
 .mainbutton:hover{
     box-shadow: 4px 4px green ;  
 }
@@ -43,6 +51,9 @@ ul{
     border: 1px solid gray;
     padding: 4px;
     border-radius: 8px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
 .buscar:focus-within{
     border: 1px solid blue;
@@ -50,4 +61,38 @@ ul{
 .buscar > input{     /*Estp significa que: Todo input que este inmnediatamente despues de la clase buscar se le aplican esos cambios*/
     outline: none;
     border: 0px;
+}
+.iconobusqueda:hover{
+    color: blue;
+}
+.breedcardcontainer{
+    display: flex;
+}
+.breedcard{
+    margin: 10px;
+    background-color: blueviolet;
+    box-shadow: 5px 10px 5px;
+    border-radius: 10px;
+}
+breedtittle{
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+.contenedorimagen{
+    width: 240px;
+    height: 350px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.contenedorimagen:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+.contenedorimagen > img {
+    object-fit: cover;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
